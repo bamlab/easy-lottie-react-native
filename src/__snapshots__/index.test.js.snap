@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LottieAnimation /> renders correctly by default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      Object {
+        "width": 96,
+      },
+      undefined,
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30,
+        "h": 48,
+        "ip": 25,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LottieAnimation /> renders correctly with a height 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      false,
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30,
+        "h": 48,
+        "ip": 25,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LottieAnimation /> renders correctly with a width 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      false,
+      Object {
+        "width": 100,
+      },
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30,
+        "h": 48,
+        "ip": 25,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LottieAnimation /> renders correctly with a width in a StyleSheet 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      false,
+      Object {
+        "width": 100,
+      },
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30,
+        "h": 48,
+        "ip": 25,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LottieAnimation /> renders correctly with decimal fr/ip/op in the source on Android 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      Object {
+        "width": 96,
+      },
+      undefined,
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30,
+        "h": 48,
+        "ip": 30,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LottieAnimation /> renders correctly with decimal fr/ip/op in the source on iOS 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "aspectRatio": 2,
+      },
+      Object {
+        "width": 96,
+      },
+      undefined,
+    ]
+  }
+>
+  <lottie
+    progress={1}
+    source={
+      Object {
+        "fr": 30.36187,
+        "h": 48,
+        "ip": 29.99997,
+        "nm": "test",
+        "op": 0,
+        "w": 96,
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
