@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": [
+    "flowtype",
+    "react",
+    "prettier"
+  ],
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "no-use-before-define": "off",
+    "no-unused-vars": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 120
+      }
+    ]
+  }
+}

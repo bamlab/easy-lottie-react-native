@@ -1,0 +1,56 @@
+{
+  "name": "easy-lottie-react-native",
+  "version": "1.0.0",
+  "description": "Lottie for React Native without hassle",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Minishlink/easy-lottie-react-native.git"
+  },
+  "author": {
+    "name": "Louis Lagrange",
+    "email": "lagrange.louis@gmail.com",
+    "url": "https://github.com/Minishlink"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "lottie-react-native",
+    "react-native-lottie",
+    "ios",
+    "android"
+  ],
+  "scripts": {
+    "test": "yarn test:lint && yarn test:flow && yarn test:unit",
+    "test:lint": "eslint . --quiet",
+    "test:unit": "jest",
+    "test:flow": "flow"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.2",
+    "babel-preset-react-native": "1.9.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-react-app": "^2.0.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "^20.0.4",
+    "prettier": "^1.5.3",
+    "flow-bin": "^0.49.1",
+    "lottie-react-native": "^2.2.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.2"
+  },
+  "peerDependencies": {
+    "lottie-react-native": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
