@@ -5,7 +5,7 @@ import Animation from 'lottie-react-native';
 
 const linearEasing = t => t;
 
-export default class LottieAnimation extends Component<void, Props, State> {
+export default class LottieAnimation extends Component<Props, State> {
   state = {
     progress: new Animated.Value(0),
   };
