@@ -1,6 +1,6 @@
 {
   "name": "easy-lottie-react-native",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Lottie for React Native without hassle",
   "main": "src/index.js",
   "repository": {
