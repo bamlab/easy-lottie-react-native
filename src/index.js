@@ -61,15 +61,16 @@ export default class LottieAnimation extends Component<Props, State> {
             aspectRatio,
             width: '100%',
           }}
-          source={Platform.select({
-            ios: source,
-            android: {
-              ...source,
-              fr: Math.round(source.fr),
-              ip: Math.round(source.ip),
-              op: Math.round(source.op),
-            },
-          })}
+          source={
+            Platform.OS === 'android'
+              ? {
+                  ...source,
+                  fr: Math.round(source.fr),
+                  ip: Math.round(source.ip),
+                  op: Math.round(source.op),
+                }
+              : source
+          }
           {...rest}
         />
       </View>
