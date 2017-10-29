@@ -38,8 +38,7 @@ describe('<LottieAnimation />', () => {
   });
 
   it('renders correctly with decimal fr/ip/op in the source on Android', () => {
-    const oldPlatformSelect = Platform.select;
-    Platform.select = jest.fn(dict => dict.android);
+    Platform.OS = 'android';
     const tree = renderer.create(
       <LottieAnimation
         source={{
@@ -51,7 +50,7 @@ describe('<LottieAnimation />', () => {
       />
     );
     expect(tree.toJSON()).toMatchSnapshot();
-    Platform.select = oldPlatformSelect;
+    Platform.OS = 'ios';
   });
 
   it('renders correctly with decimal fr/ip/op in the source on iOS', () => {
