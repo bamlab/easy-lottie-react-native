@@ -60,6 +60,7 @@ export default class LottieAnimation extends Component<Props, State> {
           style={{
             aspectRatio,
             width: '100%',
+            height: '100%',
           }}
           source={
             Platform.OS === 'android'

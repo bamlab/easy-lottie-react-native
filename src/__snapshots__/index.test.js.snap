@@ -29,6 +29,7 @@ exports[`<LottieAnimation /> renders correctly by default 1`] = `
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
@@ -65,6 +66,7 @@ exports[`<LottieAnimation /> renders correctly with a height 1`] = `
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
@@ -101,6 +103,7 @@ exports[`<LottieAnimation /> renders correctly with a width 1`] = `
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
@@ -137,6 +140,7 @@ exports[`<LottieAnimation /> renders correctly with a width in a StyleSheet 1`] 
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
@@ -173,6 +177,7 @@ exports[`<LottieAnimation /> renders correctly with decimal fr/ip/op in the sour
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
@@ -209,6 +214,7 @@ exports[`<LottieAnimation /> renders correctly with decimal fr/ip/op in the sour
     style={
       Object {
         "aspectRatio": 2,
+        "height": "100%",
         "width": "100%",
       }
     }
